@@ -90,6 +90,7 @@ The “Where?” questions focus on the geographic and logistical aspects of you
 
 * You will be able to accelerate your workflow, getting rid of holdups in the process.
 
+
 # TIC-TAC-TOE GAME DESIGN
 
 When a player makes a move, we need to check if he/she wins the game. A simple solution is to check O(N^2) grid for horizontal, vertical and two diagonals to see if they are all occupied by this player. However, a better solution that has O(1) time would be to trade space for time. That is, we use O(N) space to record the number of each players in each row, column and two diagonals.
@@ -118,3 +119,17 @@ This is the start of the game tree for Noughts and Crosses. We can expand this g
 # ARCHITECTURE
 
 ![image](https://user-images.githubusercontent.com/101011183/160986033-a00ae819-7d45-45c1-87a4-fce743865880.png)
+
+
+# Flow Diagram
+
+![image](https://user-images.githubusercontent.com/101011183/160986207-469ce217-0b02-4051-986a-7d673c75b6f6.png)
+
+# Class Diagram
+
+![image](https://user-images.githubusercontent.com/101011183/160986267-4816e707-d969-4233-bce3-93ceb3d1923a.png)
+
+# UseCase Diagram
+
+![image](https://user-images.githubusercontent.com/101011183/160986331-4b2251a0-6832-45bb-a556-e70f16e73402.png)
+
